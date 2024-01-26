@@ -1,0 +1,30 @@
+INSERT INTO destino (id, nombre) VALUES (0, 'Colmenas');
+INSERT INTO destino (id, nombre) VALUES (1, 'Tiendas Andalucia');
+INSERT INTO destino (id, nombre) VALUES (2, 'Tiendas Comunidad Valenciana');
+INSERT INTO destino (id, nombre) VALUES (3, 'Tiendas Castilla y la Mancha');
+INSERT INTO destino (id, nombre) VALUES (4, 'Tiendas Catalunya');
+INSERT INTO destino (id, nombre) VALUES (5, 'Tiendas Madrid');
+INSERT INTO destino (id, nombre) VALUES (6, 'Tiendas Portugal');
+INSERT INTO destino (id, nombre) VALUES (8, 'Almacenes');
+INSERT INTO destino (id, nombre) VALUES (9, 'Oficinas Mercadona');
+
+INSERT INTO proveedor (id, nombre) VALUES (8437008, 'Hacendado');
+INSERT INTO proveedor (id, nombre) VALUES (8432546, 'Frutas Valencia');
+INSERT INTO proveedor (id, nombre) VALUES (8431247, 'Carnes Albadalejo');
+INSERT INTO proveedor (id, nombre) VALUES (8435671, 'PisciMurcia');
+INSERT INTO proveedor (id, nombre) VALUES (8202547, 'Verduras Francia');
+INSERT INTO proveedor (id, nombre) VALUES (8432121, 'Nestle');
+INSERT INTO proveedor (id, nombre) VALUES (8434778, 'The Coca-Cola Company');
+INSERT INTO proveedor (id, nombre) VALUES (8431124, 'Central Lechera Asturiana');
+
+INSERT INTO producto (id, id_ean, nombre, proveedor_id, destino_id) VALUES (45905, '8437008459051', 'Tortilla de patatas', 8437008, 1);
+INSERT INTO producto (id, id_ean, nombre, proveedor_id, destino_id) VALUES (45906, '8437008459062', 'Huevos camperos', 8437008, 2);
+INSERT INTO producto (id, id_ean, nombre, proveedor_id, destino_id) VALUES (45907, '8431247459074', 'Chuletas mixtas', 8431247, 4);
+INSERT INTO producto (id, id_ean, nombre, proveedor_id, destino_id) VALUES (45908, '8202547459088', 'Tomate', 8202547, 8);
+INSERT INTO producto (id, id_ean, nombre, proveedor_id, destino_id) VALUES (45909, '8202547459096', 'Lechuga', 8202547, 6);
+INSERT INTO producto (id, id_ean, nombre, proveedor_id, destino_id) VALUES (45910, '8432121459103', 'Kit-Kat', 8432121, 3);
+INSERT INTO producto (id, id_ean, nombre, proveedor_id, destino_id) VALUES (45911, '8437008459110', 'Torreznos', 8437008, 0);
+INSERT INTO producto (id, id_ean, nombre, proveedor_id, destino_id) VALUES (45912, '8431124459128', 'Leche', 8431124, 8);
+INSERT INTO producto (id, id_ean, nombre, proveedor_id, destino_id) VALUES (45913, '8437008459132', 'Avena', 8437008, 2);
+INSERT INTO producto (id, id_ean, nombre, proveedor_id, destino_id) VALUES (45914, '8434778459149', 'Coca-cola', 8434778, 9);
+INSERT INTO producto (id, id_ean, nombre, proveedor_id, destino_id) VALUES (45915, '8435671459155', 'Salmon Ahumado', 8435671, 5);

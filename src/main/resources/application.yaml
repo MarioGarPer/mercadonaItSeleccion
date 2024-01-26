@@ -1,5 +1,29 @@
 server:
   port: 8080
+  servlet:
+    contextPath: "/mercadona"
+logging:
+  level:
+    org:
+      springframework:
+        jdbc:
+          datasource:
+            init:
+              ScriptUtils: "debug"
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: "jdbc:h2:mem:productsdb"
+  jpa:
+    hibernate:
+      ddl-auto: "none"
+springfox:
+  documentation:
+    swagger:
+      v2:
+        path: /api-docs
 ---
 spring:
   config:
